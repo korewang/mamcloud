@@ -1,0 +1,1383 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    color: #333333;
+    background-color: #2A2B2F;
+}
+.top-pic {
+    background-image: url("../images/base/lark_white3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 152px;
+    height: 116px;
+    margin: 18px auto;
+
+}
+.form-horizontal .form-group{
+    margin-bottom: 0;
+}
+.login-content {
+    position:absolute;
+    top:10%;
+    margin-top:-60px;
+    width:100%;
+}
+
+.login-content .container{
+    text-align: center;
+}
+
+.login-footer {
+    background-color: rgb(24,24,24);
+}
+
+.inner {
+    padding: 30px;
+    text-align: center;
+}
+
+.inner p {
+    color: #fff;
+    /*font-size: 3px;*/
+    /*line-height: 1px;*/
+}
+
+#loginCloud {
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+/*引入不同屏幕分辨率下的css样式*/
+
+
+/*屏幕宽度在320px~479px之间的手机*/
+
+@media screen and (width: 540px) and (height: 960px) {
+    .center-header{
+        display: -webkit-box;
+        -webkit-box-orient:vertical;
+        font-size: 20px;
+    }
+    .headerbk{
+        display: -webkit-box;
+        height: 70px;
+        -webkit-box-align:center;
+    }
+    .logo{
+        height:65px;
+        width: 65px;
+        background: url("../images/base/backhome.png") no-repeat center center;
+        display: -webkit-box;
+        /*background-size: 100%;*/
+        /*display: inherit;*/
+        /*position: absolute;*/
+        /*top: 0.6em;*/
+        /*left: 1em;*/
+    }
+    .Login-information{
+        /*position: absolute;*/
+        /*top: 40%;*/
+        /*left: 50%; */
+        /*margin-top: -90px;*/
+        /*margin-left: -90px;*/
+        display: -webkit-box;
+        -webkit-box-flex: 1;
+        -webkit-box-orient: vertical;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+    }
+    .center-logo{
+        width: 240px;
+        height: 240px;
+        border: 3px solid #fff;
+        border-radius: 50%;
+    }
+    .progressBar {
+        display: inline-block;
+        position: relative;
+        width: 240px;
+        background-color: #e6e6e6;
+        height: 4px;
+        margin: 5px 0;
+    }
+    .login-name{
+        margin: 12px 0;
+    }
+    .center-content ul li{
+        height:80px;
+        background-color: #38393e;
+        margin-top: 10px;
+        position: relative;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        -webkit-box-orient: horizontal;
+        font-size: 24px;
+    }
+}
+@media screen and (min-width: 320px) and (max-device-width: 479px) {
+
+    /*登录部分css  start*/
+
+    /*.login-header .container{
+        margin-top: 3%;
+    }*/
+    .dropdown-menu.popCenter ul{
+        width: 200px;
+    }
+    .top-pic {
+        width: 180px;
+        height: 120px;
+        margin: 20px auto 15px;
+    }
+
+    .login-content {
+        margin-top:-60px;
+    }
+
+    .login-content .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #loginCloud {
+        /*letter-spacing: 20px;*/
+    }
+
+    .btn {
+        font-size: 2em;
+    }
+
+    select, textarea, input[type="password"], input[type="email"]{
+        font-size: 1.2em;
+        height: 2.4em;
+    }
+
+    .inner {
+        padding: 20px;
+    }
+
+    .inner p {
+        font-size: 0.8em;
+    }
+
+    /*登录部分css  end*/
+
+
+
+    /*主页部分css  start*/
+
+    .logoimg {
+        width: 120px;
+        height: 20px;
+        margin: 15px auto;
+    }
+
+    .pro {
+        width: 40px;
+        height: 40px;
+    }
+
+    .pro .dropdown-menu{
+        margin-left: -20px;
+    }
+
+    .pro .dropdown-menu li a{
+        font-size: 1em;
+    }
+
+    .contents {
+        margin-top: 60px;
+    }
+
+    .listTitle {
+        height: 50px;
+    }
+
+    .titleL {
+        height: 46px;
+        width: 60px;
+    }
+
+    .titleR a {
+        /*font-size: 1.3em;*/
+    }
+
+    .filterD {
+        height: 38px;
+        width: 38px;
+        margin: 5px auto;
+    }
+
+    .titleL .dropdown-menu li a {
+        font-size: 1em;
+    }
+
+    .itemView,.contentView{
+        height: 65px;
+    }
+
+    .leftImg {
+        width: 50px;
+        height: 65px;
+        margin-left: 10px;
+    }
+
+    .leftImg .icon40{
+        width: 40px;
+        height: 40px;
+        margin-top: 0;
+        position: relative;
+    }
+
+    .leftImg .icon40 img{
+        width: 35px;
+        height: 35px;
+        margin-top: 0;
+    }
+    .leftImg .icon40 span{
+        position: absolute;
+        display: block;
+        margin-top: 5px;
+        font-size: 8px;
+        webkit-text-size-adjust: none;
+    }
+    .rightTitle .fileName{
+        height: 40px;
+        line-height: 45px;
+        font-size: 20px;
+    }
+
+    .rightTitle .fileTime{
+        height: 20px;
+        line-height: 12px;
+        font-size: 12px;
+    }
+
+    .rightSelect{
+        margin-right: 15px;
+        width: 20px;
+    }
+    .uploadFail,.uploading,.upsuccess{
+        display: -webkit-box;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+        width: 35px;
+        font-size: 16px;
+    }
+    .failImg{
+        background: url("../images/base/upload_fail.png");
+        width: 35px;
+        height: 35px;
+        background-size: 100%;
+        -webkit-transform:scale(0.6);
+        transform:scale(0.6);
+    }
+    .successImg{
+
+        width: 35px;
+        height: 35px;
+        background-size: 100%;
+        -webkit-transform:scale(0.6);
+        transform:scale(0.6);
+    }
+    .selected .successImg,.selected .failImg{
+        background: url("../images/base/2_main_p_select_03.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+    .foot-bar4{
+        height: 50px;
+    }
+
+    .foot-bar4 a.search,.foot-bar4 a.add,.foot-bar4 a.classification,.foot-bar4 a.load-up,.foot-bar4 a.download,.foot-bar4 a.deleteFile,.foot-bar4 a.reName,.foot-bar4 a.moveTo,.foot-bar4 a.backToNar{
+        height: 40px;
+        width: 40px;
+        margin: 5px auto;
+    }
+
+    /*主页部分css  end*/
+
+
+
+    /*添加与分类对话框部分css  start*/
+
+    .modal-dialog {
+        margin: auto 10%;
+        width: 80%;
+        /*height: 50%;*/
+        height: 325px;
+    }
+    .modal-dialog.addFiles{
+        height: 245px;
+    }
+    .fix_dialog {
+        height: 60px;
+    }
+
+    .fix_dialog a.cvideo,.fix_dialog a.pic,.fix_dialog a.video,.fix_dialog a.audio, .fix_dialog a.img, .fix_dialog a.doc, .fix_dialog a.other, .fix_dialog a.all,.fix_dialog a.folder{
+        height: 50px;
+        width: 45px;
+    }
+
+    .C_dialog p{
+        font-size: 1em;
+    }
+
+    .P_dialog .preview-img{
+        margin-top: 10%;
+        width: 200px;
+        height: 200px;
+    }
+
+    .P_dialog .preview-audio{
+        /*width:200px;*/
+        width: 100%;
+    }
+
+    .P_dialog a.preview-audio-img{
+        width: 200px;
+        height:115px;
+    }
+
+    .P_dialog .preview-video{
+        width:200px;
+        height: 240px;
+    }
+
+    /*添加与分类对话框部分css  end*/
+
+
+
+    /*搜索页面部分css  start*/
+
+    .narback {
+        width: 38px;
+        height: 38px;
+        margin: 5px auto;
+    }
+
+    select, textarea, input[type="text"]{
+        height: 35px;
+        font-size: 1em;
+    }
+
+    .btns.search{
+        width: 45px;
+        height: 35px;
+        padding: 7px 10px;
+    }
+
+    .btnsse{
+        width: 20px;
+        height: 20px;
+    }
+    /*搜索页面部分css  end*/
+    /*transport list loading css style*/
+    #floatingCirclesG{
+        position:relative;
+        width:35px;
+        height:35px;
+        -webkit-transform:scale(0.6);
+        transform:scale(0.6);
+    }
+
+    .f_circleG{
+        position:absolute;
+        background-color:#FFFFFF;
+        height:6px;
+        width:6px;
+        -webkit-border-radius:3px;
+        -webkit-animation-name:f_fadeG;
+        -webkit-animation-duration:1.04s;
+        -webkit-animation-iteration-count:infinite;
+        -webkit-animation-direction:linear;
+        border-radius:3px;
+        animation-name:f_fadeG;
+        animation-duration:1.04s;
+        animation-iteration-count:infinite;
+        animation-direction:linear;
+    }
+
+    #frotateG_01{
+        left:0;
+        top:14px;
+        -webkit-animation-delay:0.39s;
+        animation-delay:0.39s;
+    }
+
+    #frotateG_02{
+        left:4px;
+        top:4px;
+        -webkit-animation-delay:0.52s;
+        animation-delay:0.52s;
+    }
+
+    #frotateG_03{
+        left:14px;
+        top:0;
+        -webkit-animation-delay:0.65s;
+        animation-delay:0.65s;
+    }
+
+    #frotateG_04{
+        right:4px;
+        top:4px;
+        -webkit-animation-delay:0.78s;
+        animation-delay:0.78s;
+    }
+
+    #frotateG_05{
+        right:0;
+        top:14px;
+        -webkit-animation-delay:0.91s;
+        animation-delay:0.91s;
+    }
+
+    #frotateG_06{
+        right:4px;
+        bottom:4px;
+        -webkit-animation-delay:1.04s;
+        animation-delay:1.04s;
+    }
+
+    #frotateG_07{
+        left:14px;
+        bottom:0;
+        -webkit-animation-delay:1.17s;
+        animation-delay:1.17s;
+    }
+
+    #frotateG_08{
+        left:4px;
+        bottom:4px;
+        -webkit-animation-delay:1.3s;
+        animation-delay:1.3s;
+    }
+
+    @-webkit-keyframes f_fadeG{
+        0%{
+            background-color:#000000}
+
+        100%{
+            background-color:#FFFFFF}
+
+    }
+
+    @keyframes f_fadeG{
+        0%{
+            background-color:#000000}
+
+        100%{
+            background-color:#FFFFFF}
+
+    }
+
+    /*transport list loading css style end*/
+
+}
+
+
+/*屏幕宽度在480px~719px之间的手机*/
+@media screen and (min-width: 480px) and (max-device-width: 719px) {
+
+
+    /*登录部分css  start*/
+
+    /*.login-header .container{
+        margin-top: 4%;
+    }*/
+
+    .top-pic {
+        width: 304px;
+        height: 231px;
+        margin: 15px auto;
+    }
+
+    .login-content {
+        margin-top:-50px;
+    }
+
+    .login-content .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #loginCloud {
+        letter-spacing: 20px;
+    }
+
+    .btn {
+        font-size: 3em;
+    }
+
+    select, textarea, input[type="password"], input[type="email"]{
+        font-size: 1.8em;
+        height: 2.4em;
+    }
+
+    .inner p {
+        font-size: 1em;
+    }
+
+    /*登录部分css  end*/
+
+    /*主页部分css  start*/
+
+    .logoimg {
+        width: 160px;
+        height: 28px;
+        margin: 16px auto;
+    }
+
+    .pro {
+        width: 48px;
+        height: 48px;
+    }
+
+    .pro .dropdown-menu{
+        margin-left: -50px;
+    }
+
+    .pro .dropdown-menu li a{
+        font-size: 1.5em;
+    }
+    .navbar-fixed-top{
+        height: 60px;
+    }
+    .contents {
+        margin-top: 60px;
+    }
+
+    .listTitle {
+        height: 75px;
+    }
+
+    .titleL {
+        height: 69px;
+        width: 90px;
+    }
+
+    .titleR a {
+        font-size: 1.8em;
+    }
+    .move_to_title #dropselected {
+        font-size: 1.1em;
+    }
+    .filterD {
+        height: 60px;
+        width: 60px;
+        margin: 8px auto;
+    }
+
+    .titleL .dropdown-menu li a {
+        font-size: 1.5em;
+    }
+
+    .itemView,.contentView{
+        height: 75px;
+    }
+
+    .leftImg {
+        width: 75px;
+        margin-left: 15px;
+    }
+
+    .leftImg .icon40{
+        width: 60px;
+        height: 60px;
+        margin-top: 8px;
+        position: relative;
+    }
+
+    .leftImg .icon40 img{
+        width: 55px;
+        height: 55px;
+        margin-top: 0;
+    }
+    .leftImg .icon40 span{
+        position: absolute;
+        display: block;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .rightTitle .fileName{
+        height: 45px;
+        line-height: 45px;
+        font-size: 28px;
+    }
+
+    .rightTitle .fileTime{
+        height: 30px;
+        line-height: 18px;
+        font-size: 18px;
+    }
+
+    .rightSelect{
+        margin-right: 20px;
+        width: 30px;
+    }
+
+
+    .foot-bar4{
+        height: 75px;
+    }
+
+    .foot-bar4 a.search,.foot-bar4 a.add,.foot-bar4 a.classification,.foot-bar4 a.load-up,.foot-bar4 a.download,.foot-bar4 a.deleteFile,.foot-bar4 a.reName,.foot-bar4 a.moveTo,.foot-bar4 a.backToNar{
+        height: 60px;
+        width: 60px;
+        margin: 8px auto;
+    }
+
+    /*主页部分css  end*/
+
+
+    /*添加与分类对话框部分css  start*/
+
+    .modal-dialog {
+        margin: auto 10%;
+        width: 80%;
+        /*height: 50%;*/
+        height: 410px;
+
+    }
+    .modal-dialog.addFiles{
+        height: 300px;
+    }
+    .fix_dialog {
+        height: 100px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .fix_dialog a.cvideo,.fix_dialog a.pic,.fix_dialog a.video,.fix_dialog a.audio, .fix_dialog a.img, .fix_dialog a.doc, .fix_dialog a.other, .fix_dialog a.all,.fix_dialog a.folder{
+        height: 70px;
+        width: 65px;
+    }
+
+    .C_dialog p{
+        font-size: 1.2em;
+    }
+
+    .P_dialog .preview-video {
+        width: 365px;
+        height: 350px;
+        margin-top: 12%;
+    }
+
+    .P_dialog .preview-img {
+        display: block;
+        width: 365px;
+        height: 350px;
+        margin-top: 12%;
+    }
+
+    .P_dialog .preview-audio{
+        /*width: 365px;*/
+        width: 100%;
+    }
+
+    .P_dialog a.preview-audio-img{
+        width: 365px;
+        height: 210px;
+    }
+
+
+
+    /*添加与分类对话框部分css  end*/
+
+
+
+    /*搜索页面部分css  start*/
+
+    .narback {
+        width: 60px;
+        height: 60px;
+        margin: 8px auto;
+    }
+
+    select, textarea, input[type="text"]{
+        height: 55px;
+        font-size: 1.5em;
+    }
+
+    .btns.search{
+        width: 65px;
+        height: 55px;
+        padding: 10px 15px;
+    }
+
+    .btnsse{
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+    /*搜索页面部分css  end*/
+
+    /* transport list loading css style */
+
+
+    #floatingCirclesG{
+        position:relative;
+        width:40px;
+        height:40px;
+        -moz-transform:scale(0.6);
+        -webkit-transform:scale(0.6);
+        -ms-transform:scale(0.6);
+        -o-transform:scale(0.6);
+        transform:scale(0.6);
+    }
+    .f_circleG{
+        position:absolute;
+        background-color:#FFFFFF;
+        height:7px;
+        width:7px;
+        -moz-border-radius:4px;
+        -moz-animation-name:f_fadeG;
+        -moz-animation-duration:1.04s;
+        -moz-animation-iteration-count:infinite;
+        -moz-animation-direction:linear;
+        -webkit-border-radius:4px;
+        -webkit-animation-name:f_fadeG;
+        -webkit-animation-duration:1.04s;
+        -webkit-animation-iteration-count:infinite;
+        -webkit-animation-direction:linear;
+        -ms-border-radius:4px;
+        -ms-animation-name:f_fadeG;
+        -ms-animation-duration:1.04s;
+        -ms-animation-iteration-count:infinite;
+        -ms-animation-direction:linear;
+        -o-border-radius:4px;
+        -o-animation-name:f_fadeG;
+        -o-animation-duration:1.04s;
+        -o-animation-iteration-count:infinite;
+        -o-animation-direction:linear;
+        border-radius:4px;
+        animation-name:f_fadeG;
+        animation-duration:1.04s;
+        animation-iteration-count:infinite;
+        animation-direction:linear;
+    }
+
+    #frotateG_01{
+        left:0;
+        top:16px;
+        -moz-animation-delay:0.39s;
+        -webkit-animation-delay:0.39s;
+        -ms-animation-delay:0.39s;
+        -o-animation-delay:0.39s;
+        animation-delay:0.39s;
+    }
+
+    #frotateG_02{
+        left:5px;
+        top:5px;
+        -moz-animation-delay:0.52s;
+        -webkit-animation-delay:0.52s;
+        -ms-animation-delay:0.52s;
+        -o-animation-delay:0.52s;
+        animation-delay:0.52s;
+    }
+
+    #frotateG_03{
+        left:16px;
+        top:0;
+        -moz-animation-delay:0.65s;
+        -webkit-animation-delay:0.65s;
+        -ms-animation-delay:0.65s;
+        -o-animation-delay:0.65s;
+        animation-delay:0.65s;
+    }
+
+    #frotateG_04{
+        right:5px;
+        top:5px;
+        -moz-animation-delay:0.78s;
+        -webkit-animation-delay:0.78s;
+        -ms-animation-delay:0.78s;
+        -o-animation-delay:0.78s;
+        animation-delay:0.78s;
+    }
+
+    #frotateG_05{
+        right:0;
+        top:16px;
+        -moz-animation-delay:0.91s;
+        -webkit-animation-delay:0.91s;
+        -ms-animation-delay:0.91s;
+        -o-animation-delay:0.91s;
+        animation-delay:0.91s;
+    }
+
+    #frotateG_06{
+        right:5px;
+        bottom:5px;
+        -moz-animation-delay:1.04s;
+        -webkit-animation-delay:1.04s;
+        -ms-animation-delay:1.04s;
+        -o-animation-delay:1.04s;
+        animation-delay:1.04s;
+    }
+
+    #frotateG_07{
+        left:16px;
+        bottom:0;
+        -moz-animation-delay:1.17s;
+        -webkit-animation-delay:1.17s;
+        -ms-animation-delay:1.17s;
+        -o-animation-delay:1.17s;
+        animation-delay:1.17s;
+    }
+
+    #frotateG_08{
+        left:5px;
+        bottom:5px;
+        -moz-animation-delay:1.3s;
+        -webkit-animation-delay:1.3s;
+        -ms-animation-delay:1.3s;
+        -o-animation-delay:1.3s;
+        animation-delay:1.3s;
+    }
+    @-moz-keyframes f_fadeG{
+        0%{
+            background-color:#000000;
+        }
+        100%{
+            background-color:#FFFFFF;
+        }
+    }
+
+    @-webkit-keyframes f_fadeG{
+        0%{
+            background-color:#000000;
+        }
+        100%{
+            background-color:#FFFFFF;
+        }
+    }
+    @-ms-keyframes f_fadeG{
+        0%{
+            background-color:#000000;
+        }
+        100%{
+            background-color:#FFFFFF;
+        }
+    }
+    @-o-keyframes f_fadeG{
+        0%{
+            background-color:#000000;
+        }
+        100%{
+            background-color:#FFFFFF;
+        }
+    }
+
+    @keyframes f_fadeG{
+        0%{
+            background-color:#000000;
+        }
+        100%{
+            background-color:#FFFFFF;
+        }
+    }
+
+    /* transport list loading css style end*/
+
+}
+
+@media screen and (device-width: 320px) and (device-height: 480px) {
+    .installPage{width: 100%;height:100%;background-color: #2a2b2f;}
+    header{ width: 100%;height: 4.5em;background-color:#181818;color: #fffdfd;position: relative }
+    header img{margin-top: 0.5em;}
+    header span{font-size: 1.5em;margin-left: 45%;position: absolute;bottom: 0.8em;}
+    .set-content{width:100%;}
+    .set-content ul{ margin-top: 0;width: 100%;}
+    .set-content ul li{position:relative;margin-bottom: 1em;list-style:none;width: 100%;height: 4em;background-color:#38393e;}
+    .set-content ul li .img1{margin-top: 0.6em;margin-left: 3%;}
+    .set-content ul li span{position: absolute;top:1.1em;left: 17%;color: #fffdfd;font-size: 1.2em;}
+    .set-content ul li .img2{position: absolute;top: 0.8em;right: 3%;}
+    .set-content ul li .conn{top: 1em;}
+    /*个人中心*/
+    .center-header{ height: 58%; background: url("../images/base/set_bg.jpg") no-repeat center;position: relative;background-size: 100% 100%;}
+    .logo{ height:45px;width: 45px;background: url("../images/base/backhome.png") no-repeat center center;background-size: 100%;display: inherit;position: absolute;top: 0.5em;left: 0.5em;}
+    .center-logo{width: 140px;height: 140px; margin-bottom:5px;border: 3px solid #fff;border-radius: 50%;}
+    .Login-information{ position: absolute;top: 40%;left: 50%; margin-top: -65px;margin-left: -70px;}
+    .login-name{color: #fff;display: inherit;}
+    .center-content{height: 42%;}
+    .center-content ul{ margin-top: 0px;}
+    .center-content ul li{ height:3em; background-color: #38393e;margin-top: 10px;position: relative;}
+    .logout {margin-top: 20px;margin-left: 5%;height: 45px;width: 90%;background-color: #b02b2b;color: #fff;font-size: 26px;text-align: center;line-height: 45px;}
+    .center-content ul li .img1{margin-top:0.5em;margin-left: 3%;}
+    .center-content ul li .img2{position: absolute;top: 0.5em;right: 3%;}
+    .center-content ul li span{position: absolute;top:0.8em;left: 17%;color: #fffdfd;font-size: 1.2em;}
+
+}
+@media screen and (device-height: 800px) and (max-device-height: 1080px) {
+    /*设置*/
+    .installPage{width: 100%;height:100%;background-color: #2a2b2f;}
+    header{ width: 100%;height: 65px;background-color:#181818;color: #fffdfd;position: relative }
+    header img{margin-top: 0.5em;}
+    header span{font-size: 1.8em;margin-left: 45%;position: absolute;bottom: 0.9em;}
+    .set-content{width:100%;}
+    .set-content ul{ margin-top: 0;width: 100%;}
+    .set-content ul li{position:relative;margin-bottom: 1em;list-style:none;width: 100%;height: 60px;background-color:#38393e;}
+    .set-content ul li .img1{margin-top: 0.6em;margin-left: 3%;}
+    .set-content ul li span{position: absolute;top:1em;left: 17%;color: #fffdfd;font-size: 1.6em;}
+    .set-content ul li .img2{position: absolute;top: 0.8em;right: 3%;}
+    .set-content ul li .conn{top: 1em;}
+    /*个人中心*/
+    .center-header{
+        height: 58%;
+        background: url("../images/base/set_bg.jpg") no-repeat center;
+        position: relative;
+        background-size: 100% 100%;
+    }
+    .logo{
+        height:50px;
+        width: 50px;
+        background: url("../images/base/backhome.png") no-repeat center center;
+        background-size: 100%;
+        display: inherit;
+        position: absolute;
+        top: 0.6em;
+        left: 1em;
+    }
+    .center-logo{width: 180px;height: 180px;border: 3px solid #fff;border-radius: 50%; margin-bottom: 10px;}
+    .Login-information{ position: absolute;top: 40%;left: 50%; margin-top: -90px;margin-left: -90px;}
+    .login-name{color: #fff;display: inherit; margin-bottom: 7px; font-size: 16px;}
+    .center-content ul{ margin-top: 30px;}
+    .center-content ul li{ height:60px; background-color: #38393e;margin-top: 15px;position: relative;}
+    .logout{margin-top: 35px;margin-left: 5%;height: 52px;width: 90%;background-color: #b02b2b;color: #fff;font-size: 30px;text-align: center;line-height: 52px;}
+    .center-content ul li .img1{margin-top:15px;margin-left: 3%;}
+    .center-content ul li .img2{position: absolute;top: 16px;right: 3%;}
+    .center-content ul li span{position: absolute;top:20px;left: 17%;color: #fffdfd;font-size: 1.6em;}
+
+}
+/*屏幕宽度在720px~1080px之间的手机*/
+@media screen and (min-width: 720px) and (max-device-width: 1080px) {
+
+    /*登录部分css  start*/
+
+    /*.login-header .container{
+        margin-top: 5%;
+    }*/
+    .dropdown-menu.popCenter ul{
+        width: 250px;
+    }
+    .top-pic {
+        width: 405px;
+        height: 346px;
+        margin: 36px auto;
+    }
+
+    .login-content {
+        margin-top:-80px;
+    }
+
+    .login-content .container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #loginCloud {
+        letter-spacing: 20px;
+    }
+
+    .btn {
+        font-size: 4.4em;
+    }
+
+    select, textarea, input[type="password"], input[type="email"]{
+        font-size: 2.2em;
+        height: 3em;
+    }
+
+    .inner p {
+        font-size: 1.8em;
+    }
+
+    /*登录部分css  end*/
+
+
+
+    /*主页部分css  start*/
+
+    .logoimg {
+        width: 260px;
+        height: 50px;
+        margin: 15px auto;
+    }
+
+    .pro {
+        width: 70px;
+        height: 70px;
+    }
+
+    .pro .dropdown-menu{
+        margin-left: -100px;
+    }
+
+    .pro .dropdown-menu li a{
+        font-size: 2em;
+    }
+
+    .contents {
+        margin-top: 70px;
+    }
+
+    .listTitle {
+        height: 100px;
+    }
+
+    .titleL {
+        height: 92px;
+        width: 120px;
+    }
+
+    .titleR a {
+        font-size: 2.3em;
+    }
+
+    .filterD {
+        height: 76px;
+        width: 76px;
+        margin: 10px auto;
+    }
+
+    .titleL .dropdown-menu li a {
+        font-size: 2em;
+    }
+
+    .itemView,.contentView{
+        height: 100px;
+    }
+
+    .leftImg {
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    .leftImg .icon40{
+        width: 80px;
+        height: 80px;
+        margin-top:  10px;
+        position: relative;
+    }
+    .leftImg .icon40 span{
+        position: absolute;
+        display: block;
+        margin-top: 19px;
+    }
+    .leftImg .icon40 img{
+        width: 72px;
+        height: 72px;
+        margin-top: 0;
+    }
+    .rightTitle .fileName{
+        height: 60px;
+        line-height: 60px;
+        font-size: 38px;
+    }
+
+    .rightTitle .fileTime{
+        height: 40px;
+        line-height: 24px;
+        font-size: 24px;
+    }
+
+    .rightSelect{
+        margin-right: 30px;
+        width: 40px;
+    }
+
+    .foot-bar4{
+        height: 100px;
+    }
+
+    .foot-bar4 a.search,.foot-bar4 a.add,.foot-bar4 a.classification,.foot-bar4 a.load-up,.foot-bar4 a.download,.foot-bar4 a.deleteFile,.foot-bar4 a.reName,.foot-bar4 a.moveTo,.foot-bar4 a.backToNar{
+        height: 80px;
+        width: 80px;
+        margin: 10px auto;
+    }
+
+    .titleR a, .panelAllFile a {
+        font-size: 2.6em;
+    }
+
+    .pullSortName, .pullSortTime {
+        font-size: 1.2em;
+    }
+
+    #pullDown, #pullUp {
+        height: 90px;
+        line-height: 90px;
+        font-size: 2.4em;
+    }
+
+    #selectAll,#cancelSelect{
+        width: 300px;
+    }
+
+    /*主页部分css  end*/
+
+
+
+    /*添加与分类对话框部分css  start*/
+
+    .modal-dialog {
+        margin: auto 10%;
+        width: 80%;
+        /*height: 45%;*/
+        height: 510px;
+    }
+
+    .modal-dialog.addFiles{
+        height: 350px;
+    }
+
+    .fix_dialog {
+        height: 140px;
+        /*margin-bottom: 8%;*/
+        /*margin-top: 6%;*/
+    }
+
+    .fix_dialog a.cvideo,.fix_dialog a.pic,.fix_dialog a.video,.fix_dialog a.audio, .fix_dialog a.img, .fix_dialog a.doc, .fix_dialog a.other, .fix_dialog a.all, .fix_dialog a.folder{
+        height: 90px;
+        width: 85px;
+    }
+
+    .C_dialog p{
+        font-size: 1.6em;
+    }
+
+    .P_dialog .preview-video {
+        width: 500px;
+        height: 500px;
+    }
+
+    .P_dialog .preview-img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .P_dialog .preview-audio{
+        /*width: 500px;*/
+        width: 100%;
+    }
+
+    .P_dialog a.preview-audio-img{
+        width: 500px;
+        height: 287px;
+    }
+
+    /*添加与分类对话框部分css  end*/
+
+
+
+    /*搜索页面部分css  start*/
+
+    .narback {
+        width: 76px;
+        height: 76px;
+        margin: 10px auto;
+    }
+
+    select, textarea, input[type="text"]{
+        height: 70px;
+        font-size: 1.8em;
+    }
+
+    .btns.search{
+        width: 90px;
+        height: 70px;
+        padding: 14px 20px;
+    }
+
+    .btnsse{
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    /*搜索页面部分css  end*/
+    /*transport list loading css style */
+
+    #floatingCirclesG{
+        position:relative;
+        width:50px;
+        height:50px;
+        -moz-transform:scale(0.6);
+        -webkit-transform:scale(0.6);
+        -ms-transform:scale(0.6);
+        -o-transform:scale(0.6);
+        transform:scale(0.6);
+    }
+
+    .f_circleG{
+        position:absolute;
+        background-color:#FFFFFF;
+        height:9px;
+        width:9px;
+        -moz-border-radius:5px;
+        -moz-animation-name:f_fadeG;
+        -moz-animation-duration:1.04s;
+        -moz-animation-iteration-count:infinite;
+        -moz-animation-direction:linear;
+        -webkit-border-radius:5px;
+        -webkit-animation-name:f_fadeG;
+        -webkit-animation-duration:1.04s;
+        -webkit-animation-iteration-count:infinite;
+        -webkit-animation-direction:linear;
+        -ms-border-radius:5px;
+        -ms-animation-name:f_fadeG;
+        -ms-animation-duration:1.04s;
+        -ms-animation-iteration-count:infinite;
+        -ms-animation-direction:linear;
+        -o-border-radius:5px;
+        -o-animation-name:f_fadeG;
+        -o-animation-duration:1.04s;
+        -o-animation-iteration-count:infinite;
+        -o-animation-direction:linear;
+        border-radius:5px;
+        animation-name:f_fadeG;
+        animation-duration:1.04s;
+        animation-iteration-count:infinite;
+        animation-direction:linear;
+    }
+
+    #frotateG_01{
+        left:0;
+        top:20px;
+        -moz-animation-delay:0.39s;
+        -webkit-animation-delay:0.39s;
+        -ms-animation-delay:0.39s;
+        -o-animation-delay:0.39s;
+        animation-delay:0.39s;
+    }
+
+    #frotateG_02{
+        left:6px;
+        top:6px;
+        -moz-animation-delay:0.52s;
+        -webkit-animation-delay:0.52s;
+        -ms-animation-delay:0.52s;
+        -o-animation-delay:0.52s;
+        animation-delay:0.52s;
+    }
+
+    #frotateG_03{
+        left:20px;
+        top:0;
+        -moz-animation-delay:0.65s;
+        -webkit-animation-delay:0.65s;
+        -ms-animation-delay:0.65s;
+        -o-animation-delay:0.65s;
+        animation-delay:0.65s;
+    }
+
+    #frotateG_04{
+        right:6px;
+        top:6px;
+        -moz-animation-delay:0.78s;
+        -webkit-animation-delay:0.78s;
+        -ms-animation-delay:0.78s;
+        -o-animation-delay:0.78s;
+        animation-delay:0.78s;
+    }
+
+    #frotateG_05{
+        right:0;
+        top:20px;
+        -moz-animation-delay:0.91s;
+        -webkit-animation-delay:0.91s;
+        -ms-animation-delay:0.91s;
+        -o-animation-delay:0.91s;
+        animation-delay:0.91s;
+    }
+
+    #frotateG_06{
+        right:6px;
+        bottom:6px;
+        -moz-animation-delay:1.04s;
+        -webkit-animation-delay:1.04s;
+        -ms-animation-delay:1.04s;
+        -o-animation-delay:1.04s;
+        animation-delay:1.04s;
+    }
+
+    #frotateG_07{
+        left:20px;
+        bottom:0;
+        -moz-animation-delay:1.17s;
+        -webkit-animation-delay:1.17s;
+        -ms-animation-delay:1.17s;
+        -o-animation-delay:1.17s;
+        animation-delay:1.17s;
+    }
+
+    #frotateG_08{
+        left:6px;
+        bottom:6px;
+        -moz-animation-delay:1.3s;
+        -webkit-animation-delay:1.3s;
+        -ms-animation-delay:1.3s;
+        -o-animation-delay:1.3s;
+        animation-delay:1.3s;
+    }
+
+    @-moz-keyframes f_fadeG{
+        0%{
+            background-color:#000000}
+
+        100%{
+            background-color:#FFFFFF}
+
+    }
+
+    @-webkit-keyframes f_fadeG{
+        0%{
+            background-color:#000000}
+
+        100%{
+            background-color:#FFFFFF}
+
+    }
+
+    @-ms-keyframes f_fadeG{
+        0%{
+            background-color:#000000}
+
+        100%{
+            background-color:#FFFFFF}
+
+    }
+
+    @-o-keyframes f_fadeG{
+        0%{
+            background-color:#000000}
+
+        100%{
+            background-color:#FFFFFF}
+
+    }
+
+    @keyframes f_fadeG{
+        0%{
+            background-color:#000000}
+
+        100%{
+            background-color:#FFFFFF}
+
+    }
+    /*transport list loading css style end*/
+
+}
+body,div,ul,li,h1,header{
+    margin: 0;
+    padding: 0;
+}
+
+

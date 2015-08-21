@@ -1,0 +1,168 @@
+
+/*
+author  wangyu
+date    20140724
+page    main.html css  style
+
+*/
+.modal-dialog {
+    position: absolute;
+    top: 50% !important;
+    transform: translate(0, -50%) !important;
+    -ms-transform: translate(0, -50%) !important;
+    -webkit-transform: translate(0, -50%) !important;
+    margin: auto 15%;
+    width: 70%;
+    height: 40%;
+}
+
+.modal-header {
+    /*background-image: url("../images/dialog_background_pic.png");*/
+    /*background-repeat: repeat-x;*/
+    background: -webkit-linear-gradient(top, #0f0f10 0%, #151517 100%);
+    text-align: center;
+    border-bottom: 0px solid #eee;
+    color: #ffffff;
+    font-size: 24px;
+}
+.modal-header h3{
+    line-height: 1;
+}
+.modal-content {
+    min-height:100%;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgb(42,43,47);
+}
+.modal-content.preview-modal-bg{
+    background: rgba(0,0,0,0);
+    border: none;
+    box-shadow: none;
+}
+.modal-body {
+    position: relative;
+    /*top: 50px;*/
+    /*bottom: 50px;*/
+    left: 0;
+    right: 0;
+    overflow-y:auto;
+}
+
+/*.modal-footer {
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+}*/
+
+.C_dialog{
+    position: relative;
+    margin: auto 0;
+    text-align: center;
+}
+
+.C_dialog p{
+    color: #ffffff;
+    min-width:50px;
+    font-size: 2px;
+}
+
+.fix_dialog {
+    height: 60px;
+}
+
+.fix_dialog a.cvideo,.fix_dialog a.pic,.fix_dialog a.video,.fix_dialog a.audio, .fix_dialog a.img, .fix_dialog a.doc, .fix_dialog a.other, .fix_dialog a.all, .fix_dialog a.folder{
+    display: block;
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+    margin: auto;
+}
+.fix_dialog a.pic{
+    background-image: url("../images/base/camera.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fix_dialog a.video{
+    background-image: url("../images/base/default_vedio.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fix_dialog a.cvideo{
+    background-image: url("../images/base/video.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fix_dialog a.audio {
+    background-image: url("../images/base/default_music.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fix_dialog a.img {
+    background-image: url("../images/base/default_pic.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fix_dialog a.doc {
+    background-image: url("../images/base/document.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fix_dialog a.other {
+    background-image: url("../images/base/default_other.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fix_dialog a.all {
+    background-image: url("../images/base/all.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fix_dialog a.folder {
+    background-image: url("../images/base/new_file.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.P_dialog{
+    position: relative;
+    margin: auto 0;
+    text-align: center;
+}
+
+.P_dialog .preview-img{
+    display: block;
+    width: 900px;
+    height: 230px;
+}
+
+.P_dialog .preview-audio{
+    width:900px;
+    display: block;
+}
+
+.P_dialog a.preview-audio-img{
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/base/audio-default.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
+.P_dialog .preview-video{
+    display: block;
+    width: 900px;
+    height: 230px;
+}
+
+
